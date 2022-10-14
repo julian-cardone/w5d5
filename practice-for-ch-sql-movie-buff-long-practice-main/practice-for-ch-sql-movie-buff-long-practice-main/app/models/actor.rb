@@ -26,3 +26,4 @@ class Actor < ApplicationRecord
     primary_key: :id,
     dependent: :nullify
   end
+
